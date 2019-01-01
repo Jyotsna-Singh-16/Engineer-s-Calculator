@@ -6,4 +6,4 @@ Simple Calculator to perform arithmetic operations (Web Development).
 <h4>2.Run calculator.html </h4>
 
 <h3>You will see the following page on the screen: </h3>
-<img src="https://github.com/Jyotsna-Singh-16/Engineer-s-Calculator/blob/master/SampleUI.png" />
+<img src="https://github.com/Jyotsna-Singh-16/Engineer-s-Calculator/blob/master/Sample.png" />
