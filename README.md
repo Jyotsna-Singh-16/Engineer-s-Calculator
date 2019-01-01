@@ -7,3 +7,5 @@ Simple Calculator to perform arithmetic operations (Web Development).
 
 <h3>You will see the following page on the screen: </h3>
 <img src="https://github.com/Jyotsna-Singh-16/Engineer-s-Calculator/blob/master/Sample.png" />
+
+<h4>You can perform any arithmetic operation using this calculator.</h4>
