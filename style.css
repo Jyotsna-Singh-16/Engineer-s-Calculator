@@ -1,0 +1,43 @@
+/* Simple Calculator to perfrom Arithmetic Operations (+,-,x,/): */
+
+.navbar{
+    background: whitesmoke;
+
+}
+
+.navbar-default .navbar-nav>li{
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 30;
+}
+
+.containerThumb{
+    margin-right: 500%;
+    margin-left: -30%;
+    margin-top: 5%;
+}
+
+
+.col-sm-3 {
+    width: auto;
+    padding-left:0.5%; 
+}
+
+.row{
+    width: 550px;
+    margin:0px 510px; 
+  
+}
+
+.thumbnail{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 10%;
+}
+
+body{
+    background: url(cover.jpg);
+}

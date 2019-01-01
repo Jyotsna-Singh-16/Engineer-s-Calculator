@@ -1,0 +1,98 @@
+<!-- Simple Calculator to perfrom Arithmetic Operations (+,-,x,/):  -->
+
+<html>
+    <head>
+        <link rel="shortcut icon" href="Logo.ico" />       
+        <title>
+         CALCULATOR
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li>CALCULATOR:</li>
+                </ul>  
+            </div>   
+         </nav>
+
+         <div class="containerThumb">
+            <div class="row">
+            <div class="col-lg-3">
+            <div class="thumbnail" style="width : 250px;
+            margin-left:-10px;">
+            <input type="text" id="myNumber" value="" style="border:none;">
+            </div>
+            </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-3">
+                            <button class="thumbnail" onclick="myFunction(1)"><h4>1</h4></button>
+                    </div>
+                    <div class="col-sm-3">
+                            <button class="thumbnail" onclick="myFunction(2)"><h4>2</h4></button>
+                    </div>
+                    <div class="col-sm-3">
+                            <button class="thumbnail" onclick="myFunction(3)"><h4>3</h4></button>
+                    </div>
+                    <div class="col-sm-3">
+                            <button class="thumbnail" onclick="operationAdd()"><h4>+</h4></button>
+                    </div>
+            </div>
+            <span>
+            <div class="row">
+                    <div class="col-sm-3">
+                            <button class="thumbnail" onclick="myFunction(4)"><h4>4</h4></button>
+                    </div>
+                    <div class="col-sm-3">
+                            <button class="thumbnail" onclick="myFunction(5)"><h4>5</h4></button>
+                    </div>
+                    <div class="col-sm-3">
+                            <button class="thumbnail" onclick="myFunction(6)"><h4>6</h4></button>
+                    </div>
+                    <div class="col-sm-3">
+                            <button class="thumbnail" onclick="operationSub()"><h4>-</h4></button>
+                    </div>
+            </div>
+            </span>
+            <span>
+            <div class="row">
+                <div class="col-sm-3">
+                        <button class="thumbnail" onclick="myFunction(7)"><h4>7</h4></button>
+                </div>
+                <div class="col-sm-3">
+                         <button class="thumbnail" onclick="myFunction(8)"><h4>8</h4></button>
+                </div>
+                <div class="col-sm-3">
+                        <button class="thumbnail" onclick="myFunction(9)" ><h4>9</h4></button>
+                </div>
+                <div class="col-sm-3">
+                        <button class="thumbnail" onclick="operationMul()" ><h4>X</h4></button>
+                </div>
+                </div>
+            </span>
+
+            <span>
+            <div class="row">
+            <div class="col-sm-3">
+                    <button class="thumbnail" onclick="clearFunction()"><h4>C</h4></button>
+            </div>
+            <div class="col-sm-3">
+                    <button class="thumbnail" onclick="myFunction(0)"><h4>0</h4></button>
+            </div>
+            <div class="col-sm-3">
+                    <button class="thumbnail" onclick="equalFunction()"><h4>=</h4></button>
+            </div>
+            <div class="col-sm-3">
+                    <button class="thumbnail" onclick="operationDiv()"><h4>/</h4></button>
+            </div>
+            </div>
+            </span>
+
+    </div>
+
+     <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
